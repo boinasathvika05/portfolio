@@ -106,7 +106,7 @@ export function About() {
               <h5 className="text-xl font-bold text-white leading-tight">Intermediate (MPC)</h5>
               <p className="text-sm text-gray-400">Sri Chaitanya Junior College</p>
               <div className="mt-auto pt-4 border-t border-white/10">
-                <span className="text-lg font-mono text-brand-blue">96.3%</span>
+                <span className="text-lg font-mono text-brand-blue">99%</span>
               </div>
             </div>
           </GlassCard>
