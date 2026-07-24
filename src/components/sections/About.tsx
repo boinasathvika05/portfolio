@@ -47,7 +47,7 @@ export function About() {
 
           <div className="mt-8">
             <a 
-              href="/resume.pdf" 
+              href="/resume.docx" 
               target="_blank" 
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-brand-purple/20 text-white font-mono text-sm tracking-widest uppercase border border-brand-purple/50 hover:bg-brand-purple/40 transition-colors shadow-[0_0_20px_rgba(176,38,255,0.3)] hover:shadow-[0_0_30px_rgba(176,38,255,0.5)]"
