@@ -44,6 +44,18 @@ export function About() {
             <Badge color="purple">Next.js</Badge>
             <Badge color="blue">GenAI</Badge>
           </div>
+
+          <div className="mt-8">
+            <a 
+              href="/resume.pdf" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-brand-purple/20 text-white font-mono text-sm tracking-widest uppercase border border-brand-purple/50 hover:bg-brand-purple/40 transition-colors shadow-[0_0_20px_rgba(176,38,255,0.3)] hover:shadow-[0_0_30px_rgba(176,38,255,0.5)]"
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" /></svg>
+              View My Resume
+            </a>
+          </div>
         </div>
 
         {/* Right Column: Visual Element */}
