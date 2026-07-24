@@ -68,7 +68,7 @@ export function Hero() {
               </div>
               <div className="hidden md:block w-px h-10 bg-white/10"></div>
               <div className="flex flex-col items-start">
-                <span className="text-2xl font-bold text-brand-blue font-mono">2nd</span>
+                <span className="text-2xl font-bold text-brand-blue font-mono">1st</span>
                 <span className="text-xs text-gray-500 tracking-wider uppercase mt-1">Rank in CSE</span>
               </div>
               <div className="hidden md:block w-px h-10 bg-white/10"></div>
