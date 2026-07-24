@@ -69,9 +69,9 @@ const experienceEvents = [
   {
     type: "award",
     duration: "2024-25",
-    title: "2nd Rank in CSE",
+    title: "1st Rank in CSE",
     organization: "Sri Indu Institute of Engineering & Technology",
-    description: "Ranked 2nd in the Computer Science & Engineering department for the Academic Year 2024-25.",
+    description: "Ranked 1st in the Computer Science & Engineering department for the Academic Year 2024-25.",
     skills: ["Academic Excellence", "Core CS"],
     icon: <Award className="w-5 h-5" />,
     image: "/images/college second-siiet.png"

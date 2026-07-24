@@ -58,11 +58,11 @@ export function Contact() {
         </div>
         
         {/* Bottom CTA Button */}
-        <button className="group relative px-10 py-5 bg-brand-purple/20 hover:bg-brand-purple/40 text-white font-medium rounded-full overflow-hidden transition-all duration-300 shadow-[0_0_20px_rgba(176,38,255,0.3)] hover:shadow-[0_0_40px_rgba(176,38,255,0.6)] border border-brand-purple/50 flex items-center justify-center gap-4 mb-24 hover:-translate-y-1">
+        <a href="mailto:sathvikaboina05@gmail.com" className="group relative px-10 py-5 bg-brand-purple/20 hover:bg-brand-purple/40 text-white font-medium rounded-full overflow-hidden transition-all duration-300 shadow-[0_0_20px_rgba(176,38,255,0.3)] hover:shadow-[0_0_40px_rgba(176,38,255,0.6)] border border-brand-purple/50 flex items-center justify-center gap-4 mb-24 hover:-translate-y-1">
           <span className="relative z-10 font-mono tracking-[0.2em] text-sm uppercase">Send a Message</span>
           <Send className="w-5 h-5 relative z-10 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
           <div className="absolute inset-0 bg-gradient-to-r from-brand-purple to-brand-cyan opacity-0 group-hover:opacity-20 transition-opacity duration-300" />
-        </button>
+        </a>
 
         {/* Ambient Glow */}
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-brand-purple/10 blur-[150px] pointer-events-none rounded-full" />

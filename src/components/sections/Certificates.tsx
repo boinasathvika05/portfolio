@@ -16,7 +16,7 @@ const certificates = [
   { id: 8, title: "InnovateX", issuer: "Scient", year: "2024", image: "/images/innovatex-scient.png" },
   { id: 9, title: "International Conference", issuer: "SIIET", year: "2024", image: "/images/international conference -siiet.png" },
   { id: 10, title: "Paper Presentation Participation", issuer: "Scient", year: "2024", image: "/images/paper presentation participation certificate in scient.png" },
-  { id: 7, title: "College Second", issuer: "SIIET", year: "2024", image: "/images/college second-siiet.png" },
+  { id: 7, title: "College First", issuer: "SIIET", year: "2024", image: "/images/college second-siiet.png" },
 ];
 
 function CertificateCard({ cert, onClick, index }: { cert: any, onClick: () => void, index: number }) {
